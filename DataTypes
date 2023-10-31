@@ -1,19 +1,40 @@
 
-  1. What Is The Variable?
-=>Variable is a container where we can store different types of values in it.
-
-	2. How To Declare A Variable In Java?
+1. What Is The Variable?
 =>
-	3. How To Assign A Value To Variable?
-	4. What Is Variable Initialization? How Is It Different Than Assignment?
-	5. Can We Declare And Initialize A Variable Together?
-	6. Why Is Specifying DataType Mandatory In Java?
-	7. How Many Types Of Datatypes Are There In Java?
-	8. How Can You Create Constants In Java?
-	9. What Are The Rules For Naming Java Variables?
-	10. What Are Some Common Naming Conventions For Java Variables?
-	11. Where Does Java Store Variable?
-	12.What do you understand by an instance variable and a local variable?
-	13. Difference between Heap and Stack Memory in java. And how java utilizes this.
-	14. Why is Java a platform independent language?
-	15. Why is Java not a pure object oriented language?
+Variable is a container where we can store different types of values in it.
+
+2. How To Declare A Variable In Java?
+=>
+data_type variable_name;
+
+data_type: This specifies the type of data the variable will hold.
+variable_name: This is the name you choose for the variable.
+
+int age;          // Declaring an integer variable named 'age'
+double salary;    // Declaring a double variable named 'salary'
+boolean isStudent; // Declaring a boolean variable named 'isStudent'
+String name;      // Declaring a String variable named 'name'
+
+3. How To Assign A Value To Variable?
+=>
+int x = 10;               // Declaring and initializing an integer variable
+double pi = 3.14159;       // Declaring and initializing a double variable
+boolean isWorking = true; // Declaring and initializing a boolean variable
+String greeting = "Hello"; // Declaring and initializing a String variable
+
+	
+4. What Is Variable Initialization? How Is It Different Than Assignment?
+=>
+
+5. Can We Declare And Initialize A Variable Together?
+	
+6. Why Is Specifying DataType Mandatory In Java?
+7. How Many Types Of Datatypes Are There In Java?
+8. How Can You Create Constants In Java?
+9. What Are The Rules For Naming Java Variables?
+10. What Are Some Common Naming Conventions For Java Variables?
+11. Where Does Java Store Variable?
+12.What do you understand by an instance variable and a local variable?
+13. Difference between Heap and Stack Memory in java. And how java utilizes this.
+14. Why is Java a platform independent language?
+15. Why is Java not a pure object oriented language?
