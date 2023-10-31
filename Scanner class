@@ -1,1 +1,6 @@
-
+1)Write a program to take two integer inputs from user and print sum and product of them.
+2)Take two different string input and print them in same line. E.g.-
+	INPUT : Codes
+		Dope
+	OUTPUT : CodesDope
+3)Write a Java Program to swap two numbers using the third variable.
