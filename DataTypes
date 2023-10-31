@@ -49,11 +49,128 @@ Specifying the data type is mandatory in Java to provide strict type checking an
 It allows the compiler to catch type-related errors at compile-time, reducing the likelihood of runtime errors.
 
 7. How Many Types Of Datatypes Are There In Java?
+=>
+Primitive Data Types:
+
+There are eight primitive data types-
+byte: 8-bit signed integer
+short: 16-bit signed integer
+int: 32-bit signed integer
+long: 64-bit signed integer
+float: 32-bit floating-point number
+double: 64-bit floating-point number
+char: 16-bit Unicode character
+boolean: Represents true or false values
+
 8. How Can You Create Constants In Java?
+=> In Java, We can create constants using the final and static modifiers.
+Constants are variables whose values should not change throughout the execution of a program.
+
 9. What Are The Rules For Naming Java Variables?
+=>
+(a) Must Begin with a Letter, Underscore, or Dollar Sign:
+Variable names must start with a letter (a to z or A to Z), an underscore (_), or a dollar sign ($).
+
+(b) Can Include Letters, Digits, Underscores, and Dollar Signs:
+After the initial character, variable names can include letters, digits, underscores, and dollar signs.
+
+(c) Are Case-Sensitive:
+For example, myVariable, myvariable, and MyVariable are considered different names.
+
+(d) Cannot Be a Reserved Keyword:
+Reserved keywords have special meanings in the language and include words like if, while, class, public, and many others.
+
+
 10. What Are Some Common Naming Conventions For Java Variables?
+=> 
+(a) Camel Case: 
+int myVariableName;
+String userName;
+double totalAmount;
+
+(b) Snake Case (for Constants): 
+final int MAX_VALUE;
+final String API_KEY;
+final double PI_VALUE;
+
 11. Where Does Java Store Variable?
+=>In Java, the memory storage of variables depends on their type and scope.
+Variables can be broadly categorized into two main types: 
+local variables and instance (or object) variables. 
+
+(a) Local Variables:
+Local variables are declared within a method, constructor, or block of code and have a limited scope.
+They are stored on the stack, which is a region of memory for managing function calls and local variables.
+
+(b) Instance (Object) Variables:
+Instance variables are declared within a class but outside of any method or block. 
+They are associated with instances (objects) of the class.
+They are stored in the heap, which is a region of memory responsible for dynamic memory allocation.
+
+
 12.What do you understand by an instance variable and a local variable?
+=>
+(a) Local Variables:
+Local variables are declared within a method, constructor, or block of code and have a limited scope.
+
+(b) Instance (Object) Variables:
+Instance variables are declared within a class but outside of any method or block. 
+They are associated with instances (objects) of the class.
+
 13. Difference between Heap and Stack Memory in java. And how java utilizes this.
+=>
+Heap Memory:
+is used for dynamic memory allocation, primarily for objects and instances of classes. 
+Objects in the heap can have a longer lifetime and are managed by the garbage collector.
+
+Stack Memory:
+is used for managing method and function call execution, including storing local variables and call frames.
+Stack memory is organized as a stack data structure, with short-lived variables.
+
 14. Why is Java a platform independent language?
+=>Java is considered a platform-independent language due to its "Write Once, Run Anywhere" philosophy, 
+which is achieved through a combination of key language features and the Java Virtual Machine (JVM). 
+Here's why Java is platform-independent:
+
+A. Bytecode: 
+Java source code is compiled into an intermediate form called bytecode.
+
+B. Java Virtual Machine (JVM):
+Java programs are executed by the JVM, which is platform-dependent.
+
+C. Just-In-Time (JIT) Compilation:
+Most modern JVMs include a Just-In-Time compiler.
+
+D. Standard Library (Java API): 
+Java provides a comprehensive standard library (Java API) that abstracts platform-specific details.
+
+E. No Native Code: 
+Java programs do not rely on platform-specific native code or system calls. 
+
+F.Security and Portability:
+Java's platform independence is not only about running on multiple operating systems but also about security.
+
+G.Compilation and Execution Separation: 
+The separation of compilation (to bytecode) and execution (by the JVM) allows Java programs to be compiled 
+once and executed on different platforms without modification.
+
 15. Why is Java not a pure object oriented language?
+=>Java is often referred to as an "object-oriented" language because it embraces and enforces many key 
+principles of object-oriented programming (OOP). However, it's considered not a "pure" object-oriented 
+language due to a few reasons:
+
+A. Primitive Data Types: 
+Java includes primitive data types such as int, double, and boolean that are not objects.
+
+B.Static Members: 
+Java allows the use of static methods and variables, which are associated with the class itself rather than with instances of the class.
+
+C. Main Method: 
+In Java, the public static void main(String[] args) method is the entry point for executing a Java program.
+
+D. Primitive Wrappers: 
+Java provides wrapper classes (e.g., Integer, Double) to allow primitive data types to be treated as objects.
+
+E. Multiple Inheritance: 
+Java supports single inheritance for classes but allows multiple inheritance for interfaces. 
+
