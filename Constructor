@@ -1,1 +1,43 @@
+1)Define Constructor?
+=>A constructor in Java is a special type of method that is automatically called when an object of a class is created. 
+It is used to initialize the object's state or perform setup operations. 
 
+2)How many types of Constructors are in Java?
+=>
+Default Constructor (No-arg Constructor):
+This constructor is automatically provided by the Java compiler if you don't define any constructors in your class.
+
+Parameterized Constructor:
+These constructors are defined by the programmer and accept one or more parameters.
+
+3)Do we have a copy constructor in Java?
+=>
+Copy Constructor:
+We can create a constructor or static factory method that takes an object of the
+same class as a parameter and initializes a new object by copying the values from the provided object.
+
+4)Can we have a constructor in the Interface?
+=>In Java, you cannot define a constructor within an interface.
+An interface is a purely abstract and contract-like construct that 
+defines a set of abstract methods that implementing classes must provide concrete implementations for. 
+Interfaces cannot be instantiated, and they do not have constructors.
+
+5)Is there any method to call a sub-class constructor from a superclass constructor?
+=>In Java, you cannot directly call a subclass constructor from a superclass constructor. 
+Constructors are invoked in a specific order: when a subclass object is created, 
+the constructor of the superclass is called before the constructor of the subclass. 
+This is because the subclass inherits properties and behaviors from the superclass, 
+so it makes sense for the superclass to initialize its part before the subclass-specific initialization takes place.
+
+6)Why constructors in Java cannot be static?
+=>In Java, constructors cannot be declared as static because the purpose of a constructor is to initialize an instance of a class, 
+and static members and methods are associated with the class itself, not with instances of the class.
+There are several reasons for this restriction.
+
+7)Why constructor name is similar to the class name?
+=>The convention of naming the constructor the same as the class name simplifies code organization, 
+readability, and the process of creating objects from that class.
+
+8) Can we make a constructor final?Can we make a constructor abstract?
+=>The final keyword applied to a method, including constructors, means that the method cannot be overridden in any subclass. 
+However, it doesn't make sense to declare a constructor as final because constructors are not inherited like regular methods. 
