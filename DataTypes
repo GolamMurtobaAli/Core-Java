@@ -25,10 +25,29 @@ String greeting = "Hello"; // Declaring and initializing a String variable
 	
 4. What Is Variable Initialization? How Is It Different Than Assignment?
 =>
+Variable Initialization:
+a) Initialization refers to the process of giving a variable an initial value when it is declared.
+int age = 25;  // The variable 'age' is declared and initialized with the value 25.
+Variable Assignment:
+a)Assignment involves changing the value of an existing variable by assigning it a new value.
+int x;        // Variable 'x' is declared but not initialized.
+x = 10;       // Variable 'x' is assigned the value 10 after declaration.
+x = 20;       // Variable 'x' is reassigned the value 20.
 
 5. Can We Declare And Initialize A Variable Together?
-	
+=>
+Yes, you can declare and initialize a variable together in Java.
+
+int age = 25;               // Declare and initialize an integer variable 'age'
+double pi = 3.14159;       // Declare and initialize a double variable 'pi'
+boolean isWorking = true; // Declare and initialize a boolean variable 'isWorking'
+String name = "John";      // Declare and initialize a String variable 'name'
+
 6. Why Is Specifying DataType Mandatory In Java?
+=> 
+Specifying the data type is mandatory in Java to provide strict type checking and improve program reliability and safety.
+It allows the compiler to catch type-related errors at compile-time, reducing the likelihood of runtime errors.
+
 7. How Many Types Of Datatypes Are There In Java?
 8. How Can You Create Constants In Java?
 9. What Are The Rules For Naming Java Variables?
