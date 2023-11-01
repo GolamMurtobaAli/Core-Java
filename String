@@ -1,1 +1,42 @@
+(Theory)
 
+1)What is String in Java?
+=> A String in Java is a sequence of characters, representing text, 
+and is one of the most commonly used data types in the language. 
+
+2)How to declare a string in Java?
+=> String myString = "Hello, World!";
+
+3)Is String a primitive or derived type in Java?
+=> String is a derived (reference) type in Java, not a primitive type.
+It's an object that represents a sequence of characters and is part of the Java class hierarchy.
+
+4)What is String pool in Java.
+=> The String pool in Java is a special memory area where String literals are stored to promote memory efficiency. 
+Strings with the same content are stored only once, and when a new String with the same content is created,
+it refers to the existing one in the pool. This helps reduce memory consumption and improves performance.
+
+5)Is String immutable or final in Java? If so, then what are the benefits of Strings being Immutable?
+=>Strings are immutable in Java, meaning their content cannot be changed after creation.
+The benefits of immutability include:
+
+Security: String content cannot be altered, which is important for security (e.g., in cryptography).
+
+Thread Safety: Immutable Strings are thread-safe; multiple threads can safely access them.
+
+Caching: Strings can be cached and shared efficiently due to immutability.
+
+6)Difference between String and StringBuffer and StringBuilder.
+=> 
+String: Immutable, can't be changed after creation.
+StringBuffer: Mutable, used for efficient string manipulations, thread-safe.
+StringBuilder: Mutable, used for efficient string manipulations, not thread-safe.
+
+(practicle)
+
+1) Write a Java program to get the character at the given index within the string.
+=>
+2) Write a Java program to concatenate a given string to the end of another string.
+3) Write a Java program to test if a given string contains the specified sequence of char values.
+4) Write a Java program to compare a given string to another string, ignoring case considerations.
+5) Write a Java program to replace a specified character with another character.
